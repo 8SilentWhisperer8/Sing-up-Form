@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Sing-up Form/assets/style.css">
+    <title>Odin Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first-container">
+            <img class="background-image" src="../Sing-up Form/assets/images/backphoto.avif" alt="backgroung compose of leaves">
+            <div class="logo-area">
+                <img class="logo-image" src="../Sing-up Form/assets/images/odin-lined.png" alt="odin logo">
+                <span>Odin</span>
+            </div>
+        </div>
+
+        <div class="second-container">
+            <div class="form intro-info">
+                <h2>This is not a real online service. You know you need something like this in your life to help you realize your deepest dreams. <br>Sing up <em>now</em> to get started.</h2>
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+
+            <div class="form user-form">
+                <h2>Let's do this!</h2>
+                <form class="my-form" action="@" method="post">
+                        <div class="rows">
+                            <div class="field">
+                                <label for="first_tname">First Name</label>
+                                <input type="text" id="first_name" name="first_name" placeholder="Thor">
+                            </div>
+
+                            <div class="field">    
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" placeholder="Odinson">
+                            </div>
+                        </div>
+
+                        <div class="rows">
+                            <div class="field">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="thorodinson@gmail.com">
+                            </div>
+
+                            <div class="field">
+                                <label for="phone_number">Phone Number:</label>
+                                <input type="tel" id="phone_number" name="phone_number" placeholder="0888888888">
+                            </div>
+                        </div>
+
+                        <div class="rows">
+                            <div class="field">
+                                <label for="user_password">Password:</label>
+                                <input type="password" id="user_password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Type your password">
+                            </div>
+
+                        <div class="field">
+                                <label for="user_password">Confirm Password:</label>
+                                <input type="password" id="user_password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Confirm your password">
+                            </div>
+                        </div>
+                </form>
+            </div>
+            
+            <div class="form footer">
+                <button class="btn">Create Account</button>
+                <p>Already have and account? <a href="index.html">Log in</a></p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
